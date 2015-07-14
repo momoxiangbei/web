@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/up_down_resume.css">
+	<title>互联网人才推荐平台</title>
+</head>
+<body>
+
+	<div class="header">
+		<div class="log">	
+			<a href="login.html">[登录]</a>
+			<a href="register.html">[注册]</a>
+			<a href="admin.html" class="admin">[个人中心]</a>
+			<a href="ridicule.html" class="ridicule">[我要吐槽]</a>
+		</div>
+	</div>
+
+	<div class="nav">
+		<span class="title"> <a href="index.html">互推网</a> </span>
+		<span class="title_lable">就要简历，互联网人才的</span>
+	</div>
+
+	<div class="upload_body">
+
+		<div class="uplaod_border">填写候选人信息</div>
+
+		<form>
+			<p><span>手机号：</span><input type="text"></p>
+			<p><span>姓名：</span><input type="text"></p>
+			<div class="resume_category">
+				简历类别：
+				<select name="resume_category"> 
+					<option value="">请选择</option> 
+					<option value="">已面试过的</option> 
+					<option value="">没面试过</option> 
+					<option value="">准备离职的</option> 
+					<option value="">其他</option> 
+				</select> 
+			</div>
+
+			<div class="resume_position">
+				简历类别：
+				<select name="resume_position"> 
+					<option value="">一级目录</option> 
+					<option value="">产品经理</option> 
+					<option value="">技术</option> 
+					<option value="">销售</option> 
+					<option value="">产品运营</option> 
+					<option value="">职能</option> 
+					<option value="">实习生</option>
+					<option value="">其他</option>  
+				</select> 
+
+				<select name="resume_position"> 
+					<option value="">二级目录</option> 
+					<option value="">自动添加</option> 
+				</select> 
+			</div>
+
+			<div class="resume_remarks">
+				<span>备注：</span>
+				<textarea></textarea>
+			</div>
+
+			<div class="resume_up">
+				<input type="file" value="上传简历">
+			</div>
+
+			<div class="resume_submit">
+				<input type="submit" value="上传简历">
+			</div>
+
+		</form>
+
+	</div>
+
+</body>
+</html>
